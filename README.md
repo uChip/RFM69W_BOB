@@ -9,25 +9,27 @@ See the following link for drivers for the RFM69W
 Hookup of the breakout board to 5V Arduino SPI connection.  All board components populated.
 
 	Arduino	RFM69W BOB
-	5V	<-->	5V
+	5V	-->	5V
 	GND	<-->	GND
-	D11	<-->	SDI
-	D12	<-->	SDO
-	D13	<-->	SCK
-	D10	<-->	SEL
-	D2	<-->	IRQ
+	D11	-->	SDI
+	D12	<--	SDO
+	D13	-->	SCK
+	D10	-->	SEL
+	D2	<--	IRQ
+		<--	3V3
  
 Hookup of the breakout board to 3.3V Arduino SPI connection.  On PCB populate radio, C2 and C3 only.
 
 	Arduino	RFM69W BOB
-	3.3V	<-->	3.3V
+	NC	 	5V
 	GND	<-->	GND
-	D11	<-->	SDI
-	D12	<-->	SDO
-	D13	<-->	SCK
-	D10	<-->	SEL
-	D2	<-->	IRQ
- 
+	D11	-->	SDI
+	D12	<--	SDO
+	D13	-->	SCK
+	D10	-->	SEL
+	D2	<--	IRQ
+ 	3.3V	-->	3V3
+
 
 ## Order PCBs  
 
