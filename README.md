@@ -1,5 +1,7 @@
 # Breakout PCB for RFM69W radio transceiver 
 
+<img src="https://dl.dropboxusercontent.com/u/36200849/RFM69W_BOB.png" alt="RFM69W Breakout Board" height="270" width="200">
+
 Eagle CAD PCB designs for radio transceiver breakout boards. 
 Converts the RFM69W radio transceiver from SMT to 0.1" breadboard format.  
 
@@ -18,7 +20,7 @@ Hookup of the breakout board to 5V Arduino SPI connection.  All board components
 	D2	<--	IRQ  
 		<--	3V3  
  
-Hookup of the breakout board to 3.3V Arduino SPI connection.  On PCB populate radio, C2 and C4 only.  
+Hookup of the breakout board to 3.3V Arduino SPI connection.  On PCB populate only radio, C2 and C4.  Short solder jumpers.  
 
 	Arduino	RFM69W BOB  
 	NC	 	5V  
