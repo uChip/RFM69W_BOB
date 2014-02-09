@@ -2,44 +2,44 @@
 
 <img src="https://dl.dropboxusercontent.com/u/36200849/RFM69W_BOB.png" alt="RFM69W Breakout Board" height="270" width="200">
 
-Eagle CAD PCB designs for radio transceiver breakout boards. 
-Converts the RFM69W radio transceiver from SMT to 0.1" breadboard format.  
+Eagle CAD PCB designs for radio transceiver breakout board. 
+Converts the RFM69W radio transceiver from SMT to 0.1" breadboard format.  This board uses the same pinout as the [JeeLabs RFM12B breakout board] (http://www.digitalsmarties.net/products/rfm12b-board) for compatibility.  Note that this board is NOT compatible with the RFM12B or the RFM69CW.
 
-See the following link for drivers for the RFM69W  
+See the following link for Arduino drivers for the RFM69W  
   * https://github.com/LowPowerLab/RFM69
 
-Hookup of the breakout board to 5V Arduino SPI connection.  All board components populated.  
+Hookup of the breakout board to 5V Arduino SPI connection.  All board components populated.  Solder-jumpers left open.  
 
-	Arduino	RFM69W BOB  
-	5V	-->	5V  
-	GND	<-->	GND  
-	D11	-->	SDI  
-	D12	<--	SDO  
-	D13	-->	SCK  
-	D10	-->	SEL  
-	D2	<--	IRQ  
-		<--	3V3  
+	Arduino			RFM69W BOB  
+	  5V	-->		  5V  
+	  GND	<-->	  GND  
+	  D11	-->		  SDI  
+	  D12	<--		  SDO  
+	  D13	-->		  SCK  
+	  D10	-->		  SEL  
+	  D2	<--		  IRQ  
+	  		<--		  3V3  
  
-Hookup of the breakout board to 3.3V Arduino SPI connection.  On PCB populate only radio, C2 and C4.  Short solder jumpers.  
+Hookup of the breakout board to 3.3V Arduino SPI connection.  On PCB populate only radio, C2 and C4.  Short the pads on the solder-jumpers.  
 
-	Arduino	RFM69W BOB  
-	NC	 	5V  
-	GND	<-->	GND  
-	D11	-->	SDI  
-	D12	<--	SDO  
-	D13	-->	SCK  
-	D10	-->	SEL  
-	D2	<--	IRQ  
- 	3.3V	-->	3V3  
+	Arduino			RFM69W BOB  
+	  NC	 		  5V  
+	  GND	<-->	  GND  
+	  D11	-->		  SDI  
+	  D12	<--		  SDO  
+	  D13	-->		  SCK  
+	  D10	-->		  SEL  
+	  D2	<--		  IRQ  
+ 	  3.3V	-->		  3V3  
 
 
 ## Order PCBs  
 
-You will be able to order any of these PCBs from OSH Park.  Click on one of the following links.  
+You can order this PCB directly from OSH Park.  Click on the following link.  
   * Radio Breakout - http://oshpark.com/shared_projects/bJRprI06  
 
 ## Status  
-  * PCB layout tested not yet tested, board has been ordered   
+  * PCB layout has been tested to be functional.   
 
 ## File Formats  
 
@@ -48,4 +48,4 @@ A free version of the software can be downloaded from www.cadsoftusa.com.
 
 ## Distribution License  
 
-All PCB designs in this repo are Public Domain.  No liability accepted.  
+You may use this PCB design however you like but no liability is accepted.  
