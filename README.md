@@ -38,6 +38,8 @@ Hookup of the breakout board to 3.3V Arduino SPI connection.  On PCB populate on
 You can order this PCB directly from OSH Park.  Click on the following link.  
   * Radio Breakout - http://oshpark.com/shared_projects/bJRprI06  
 
+See Bill of Materials file in repo for parts list.  
+
 ## Status  
   * PCB layout has been tested to be functional.   
 
