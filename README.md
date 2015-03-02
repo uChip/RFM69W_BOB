@@ -1,6 +1,6 @@
 # Breakout PCB for RFM69W radio transceiver 
 
-<img src="https://raw2.github.com/uChip/RFM69W_BOB/master/RFM69W_BOB.png" alt="RFM69W Breakout Board" height="270" width="200">___<img src="https://raw2.github.com/uChip/RFM69W_BOB/master/RFM69_BOB.jpg" alt="RFM69W Breakout Board in action" height="300" width="200">
+<img src="https://github.com/uChip/RFM69W_BOB/blob/master/RFM69W_BOB.png" alt="RFM69W Breakout Board" height="270" width="200">___<img src="https://raw2.github.com/uChip/RFM69W_BOB/blob/master/RFM69_BOB.jpg" alt="RFM69W Breakout Board in action" height="300" width="200">
 
 Eagle CAD PCB designs for radio transceiver breakout board. 
 Converts the RFM69W radio transceiver from SMT to 0.1" breadboard format.  This board uses the same pinout as the [JeeLabs RFM12B breakout board] (http://www.digitalsmarties.net/products/rfm12b-board) for compatibility.  Note you cannot solder the RFM12B or the RFM69CW modules to this board.  Use an RFM69W or RFM69HW module instead.
